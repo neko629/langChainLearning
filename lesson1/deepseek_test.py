@@ -14,7 +14,7 @@ model = ChatDeepSeek(
     timeout = 30
 )
 
-question = "你支持多模态吗?"
+question = "你是谁?"
 
 # result = model.invoke(question)
 #
