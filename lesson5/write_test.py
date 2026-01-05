@@ -24,7 +24,7 @@ research_instructions = """
 agent = create_deep_agent(
     name = "ResearchAgent",
     model = deepseek_model,
-    tools = [tavily, file_tool],
+    tools = [file_tool],
     system_prompt = research_instructions,
     checkpointer = InMemorySaver()
 )
@@ -35,7 +35,7 @@ message = {
     "messages": [
         {
             "role": "user",
-            "content": "1. 今天天气怎么样?\n2. 帮我把这个问题记录到本地文件中."
+            "content": "今天消费5元. "
         }
     ]
 }
