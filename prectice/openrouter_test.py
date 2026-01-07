@@ -13,9 +13,11 @@ model = init_chat_model(
     api_key=openrouter_api_key
 )
 
-# query = "10句话介绍一下人工智能的发展历史。"
-#
+query = "10句话介绍一下人工智能的发展历史。"
+
 # response = model.invoke(query)
 #
 # print(response.content)
+#
+# print(response.content_blocks)
 
