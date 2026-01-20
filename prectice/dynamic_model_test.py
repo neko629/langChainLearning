@@ -30,7 +30,7 @@ agent = create_agent(
 )
 
 for i in range(5):
-    question = "1 + 1 等于多少?"  # 简单问题
+    question = "2 + 2 等于多少?"  # 简单问题
     response = agent.invoke(
         {
             "messages": [{"role": "user", "content": question}]
