@@ -17,6 +17,7 @@ def get_user_info_safe(username: str):
     return results
 
 
+
 def main():
     if len(sys.argv) > 1:
         user_input = sys.argv[1]
